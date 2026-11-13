@@ -1,0 +1,10 @@
+//to calculate volumn of square
+#include<stdio.h>
+void main()
+{
+	float s,volumn;
+	printf("enter the value of s");
+	scanf("%f",&s);
+	volumn = s*s;
+	printf("volumn of square = %f",volumn);
+}
