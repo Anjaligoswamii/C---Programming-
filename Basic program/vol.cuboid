@@ -1,0 +1,10 @@
+//to calculate the volumn of a cuboid
+#include<stdio.h>
+void main()
+{
+	float l,w,h,volumn;
+	printf("enter the value of l and w and h");
+	scanf("%f%f%f",&l,&w,&h);
+	volumn = l*w*h;
+	printf("volumn of cuboid = %f",volumn);
+}
